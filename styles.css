@@ -3,25 +3,55 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url('https://www.modernthrill.com/wp-content/uploads/2012/12/awesome-nerd-party.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
   font-size: 18px;
+
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color:#7b1005;
+  cursor: pointer;
+  transition-duration: 0.1s
 }
+
+.body:hover{
+  color: #a17a04
+}
+
+
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
 }
+
+.title:hover{
+  color: #a17a04
+}
+
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #8c8774;
 }
+
 .title{
-  background-color: #777;
+  background-color: #8c8774;
 }
+
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  border:25px solid blue;
   position:absolute;
+  cursor: pointer;
+  transition-duration: 0.1s
+}
+
+.dancer:hover {
+  color: red
 }
